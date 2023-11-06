@@ -1,0 +1,49 @@
+.cabecalho, #opcoesPc, .direitaDentro, #username {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho {
+    height: 100%;
+}
+
+#marca {
+    width: 15%;
+    justify-content: end;
+}
+
+#marca img {
+    height: 80%;
+}
+
+#opcoesPc {
+    width: 65%;
+    height: 100%;
+}
+
+#direita {
+    width: 20%;
+    gap: 10px;
+    justify-content: center;
+}
+
+#direita * {
+    height: 80%;
+}
+
+.direitaDentro  {
+    justify-content: center;
+}
+
+#expandir {
+    height: 40%;
+}
+
+#lupa {
+    height: 60%;
+}
+
+#lupa:hover, #username:hover, #expandir:hover, #opcoesPc a:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 3px whitesmoke);
+}

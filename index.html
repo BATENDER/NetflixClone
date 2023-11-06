@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/geral.css">
         <link rel="shortcut icon" href="arquivosAuxiliares/netflixAssets/Netflix/logo/simbolo/01_Netflix_Symbol_RGB/Netflix_Symbol_RGB.png" type="image/x-icon">
         <title>Netflix - Home</title>
     </head>
@@ -12,10 +14,10 @@
     <body>
         <div id="pagina">
             <header>
-                <div id="marca">
+                <div id="marca" class="cabecalho">
                     <img src="arquivosAuxiliares/netflixAssets/Netflix/logo/logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png" alt="logo da netflix">
                 </div>
-                <nav>
+                <nav id="opcoesPc">
                     <ul>
                         <li> <a href="">Home</a> </li>
                         <li> <a href="">Séries</a> </li>
@@ -26,11 +28,19 @@
                         <li> <a href="">Top da semana</a> </li>
                     </ul>
                 </nav>
-                <div id="direita">
-                    <div id="lupa"></div>
-                    <div id="username"></div>
-                    <div id="imgPerfil"></div>
-                    <div id="expandir"></div>
+                <div id="direita" class="cabecalho">
+                    <div class="direitaDentro">
+                        <img id="lupa" src="arquivosAuxiliares/lupa.svg" alt="imagem de uma lupa">
+                    </div>
+                    <div class="direitaDentro">
+                        <h5 id="username">USERNAME</h5>
+                    </div>
+                    <div class="direitaDentro">
+                        <img  id="imgPerfil" src="arquivosAuxiliares/netflixAssets/Netflix/ícones de usuário/123 - prnpovw.png" alt="icone de usuario">
+                    </div>
+                    <div class="direitaDentro">
+                        <img id="expandir" src="arquivosAuxiliares/seta-para-baixo.svg" alt="expandir seta">
+                    </div>
                 </div>
             </header>
 
